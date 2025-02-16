@@ -9,6 +9,7 @@ def main():
     for char, number in char_count.items():
         if char.isalpha():
             print(f"The '{char}' character was found {number} times")
+    print("--- End report ---")
 
 def get_num_words(text):    # counts words in the given text
     words = text.split()
